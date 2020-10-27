@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Filemark">
+      <UniqueIdentifier>{afcbf875-65a6-465b-846f-53313edfb5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f3c515e8-2c9b-48c7-b129-f10ce876a1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Analyse">
+      <UniqueIdentifier>{d62a1b0d-1f88-46cb-a0c0-a7d3ee05cbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com">
+      <UniqueIdentifier>{6cb76ded-07ec-4615-914c-2c26587d7964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{1a0eb7f9-c401-47fe-ba51-e9c5fd797d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FIFO">
+      <UniqueIdentifier>{a98c987d-2104-405c-a407-0824f426dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FM">
+      <UniqueIdentifier>{67d3bd0e-196e-4e7b-9325-481d5fe4109c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{b37a2994-0333-4fd5-b146-fe0b54901bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{81e4bda0-0ec0-48cd-b8d4-0ff5f414c95d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="safeImport.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Filemark\filemark.cpp">
+      <Filter>Filemark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Filemark\KAES.cpp">
+      <Filter>Filemark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\log\log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Main\config.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Main\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Analyse\Analyse.cpp">
+      <Filter>Analyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FIFO\FIFO_.cpp">
+      <Filter>FIFO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FM\UKey.cpp">
+      <Filter>FM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FM\usbkey.cpp">
+      <Filter>FM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task\FileTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Task\SFileTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\ISocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Socket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket\Ssl.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\com\stdafx.cpp">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="..\com\os_app.cpp">
+      <Filter>com</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Filemark\filemark.h">
+      <Filter>Filemark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Filemark\KAES.h">
+      <Filter>Filemark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\com\resource.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\com\swgap_comm.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\com\targetver.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\color.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\log\log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Main\config.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Analyse\Analyse.h">
+      <Filter>Analyse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FIFO\FIFO.h">
+      <Filter>FIFO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FIFO\FIFO_.h">
+      <Filter>FIFO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FM\fm_def.h">
+      <Filter>FM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FM\fm_sic_cmd_def.h">
+      <Filter>FM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FM\fm_sic_pub.h">
+      <Filter>FM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FM\UKey.h">
+      <Filter>FM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FM\usbkey.h">
+      <Filter>FM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Task\FileTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Task\SFileTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\ISocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\Socket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket\Ssl.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\com\stdafx.h">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="..\com\os_app.h">
+      <Filter>com</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
